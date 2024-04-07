@@ -10,4 +10,4 @@ data_process:
 data_prepare:
   dest_folder: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/prepare_data
 evaluate:
-  output: C:/Users/sriva/OneDrive/Downloads/Github/Big-data_Assignment4/output
+  output: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/output

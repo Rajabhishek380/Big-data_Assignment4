@@ -35,8 +35,8 @@ stages:
       nfiles: 10
     params:
       params.yaml:
-        data_prepare.dest_folder: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/prepare_data
-        data_source.temp_dir: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/data
+        data_prepare.dest_folder: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/prepare_data
+        data_source.temp_dir: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/data
     outs:
     - path: prepare_data
       hash: md5
@@ -62,9 +62,9 @@ stages:
       nfiles: 20
     params:
       params.yaml:
-        data_prepare.dest_folder: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/prepare_data
-        data_process.dest_folder: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/process_data
-        data_source.temp_dir: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/data
+        data_prepare.dest_folder: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/prepare_data
+        data_process.dest_folder: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/process_data
+        data_source.temp_dir: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/data
     outs:
     - path: process_data
       hash: md5
@@ -90,9 +90,9 @@ stages:
       nfiles: 10
     params:
       params.yaml:
-        data_prepare.dest_folder: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/prepare_data
-        data_process.dest_folder: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/process_data
-        evaluate.output: C:/Users/sriva/OneDrive/Documents/Github/Assignment4_BDL/output
+        data_prepare.dest_folder: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/prepare_data
+        data_process.dest_folder: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/process_data
+        evaluate.output: C:/Users/Dell/OneDrive/Downloads/Github/Big-data_Assignment4/output
     outs:
     - path: output
       hash: md5
